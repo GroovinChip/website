@@ -20,7 +20,7 @@ jobs:
         run: flutter build web
       - name: Deploy
         run: |
-          cd example/build/web
+          cd build/web
           git init
           git config user.name "GroovinChip"
           git config user.email "groovinchip@github.com"
